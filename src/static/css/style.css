@@ -3,12 +3,11 @@
 }
 .highlight-sentence-container{
     position: absolute;
-    top: 40%;
     left: 8%;
     background-color: #343a40;
     height: 15vh;
     width: 55%;
-    opacity: 85%;
+    opacity: 0.85;
     display: flex;
     align-items: center;
     padding: 1vh;
@@ -17,5 +16,6 @@
     height: auto;
     background-color: black;
     opacity: 70%;
+    z-index: 1;
 }
 
