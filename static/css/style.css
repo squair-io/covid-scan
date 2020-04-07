@@ -51,6 +51,18 @@
     margin-bottom: 2vh;
     text-align: center;
 }
-.startup-img{
-    width: calc(100% - 3vh);
+
+.startups-description{
+    padding-left: 1vh;
+    padding-right: 1vh;
+}
+
+.squair-img{
+    height: 4vh;
+    width: auto;
+}
+
+.simplifai-img{
+    height: 3vh;
+    width: auto;
 }

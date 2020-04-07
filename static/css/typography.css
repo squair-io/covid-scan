@@ -33,6 +33,10 @@
     font-size: 1.3vh;
 }
 
+.spacer-1vh{
+    height: 1vh;
+}
+
 .purple{
     color: #440099;
 }
