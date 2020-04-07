@@ -33,8 +33,41 @@
     font-size: 1.3vh;
 }
 
+.highlight-sentence{
+    font-family: josefin-sans-regular;
+    font-size: 2vh;
+    margin: 0px;
+}
+
+.item-number{
+    font-family: josefin-sans-light;
+    font-size: 4vh;
+    text-align: center;
+}
+
+.item-title{
+    margin-top: 0.5vh;
+    font-family: josefin-sans-light;
+    font-size: 1vh;
+    text-transform: uppercase;
+}
+
+.item-description{
+    margin-top: 0.5vh;
+    font-family: josefin-sans-light;
+    font-size: 1vh;
+}
+
 .spacer-1vh{
     height: 1vh;
+}
+
+.spacer-2vh{
+    height: 2vh;
+}
+
+.spacer-3vh{
+    height: 3vh;
 }
 
 .purple{
@@ -51,4 +84,19 @@
 
 .grey{
     color: #878787;
+}
+
+.icon-sm{
+    width: 10vw;
+    height: auto;
+}
+
+.icon-md{
+    width: 15vw;
+    height: auto;
+}
+
+.icon-lg{
+    width: 20vw;
+    height: auto;
 }

@@ -6,7 +6,6 @@
     padding: 4vh;
     margin: 0px;
 }
-
 .header-title{
     font-family: josefin-sans-bold;
     color: white;
@@ -17,7 +16,6 @@
     align-items: flex-end;
     margin: 0px;
 }
-
 .header-subtitle{
     font-family: josefin-sans-regular;
     color: white;
@@ -25,11 +23,9 @@
     height: 4vh;
     margin: 0px;
 }
-
 .section{
     padding: 4vh;
 }
-
 .summary{
     background-color: #DF1995;
     height: auto;
@@ -51,18 +47,47 @@
     margin-bottom: 2vh;
     text-align: center;
 }
-
 .startups-description{
     padding-left: 1vh;
     padding-right: 1vh;
 }
-
 .squair-img{
     height: 4vh;
     width: auto;
 }
-
 .simplifai-img{
     height: 3vh;
     width: auto;
+}
+.our-goal{
+    position: relative;
+}
+.highlight-sentence-container{
+    position: absolute;
+    top: 40%;
+    left: 8%;
+    background-color: #343a40;
+    height: 15vh;
+    width: 55%;
+    opacity: 85%;
+    display: flex;
+    align-items: center;
+    padding: 1vh;
+}
+.our-goal .highlight-sentence{
+   color: white;
+}
+.our-goal img{
+    height: auto;
+    width: 100%;
+    padding: 0px;
+
+}
+.overlay{
+    height: auto;
+    background-color: black;
+    opacity: 70%;
+}
+.solution-diagram{
+    margin-top: 2vh;
 }
