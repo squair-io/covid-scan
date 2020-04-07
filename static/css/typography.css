@@ -1,0 +1,50 @@
+@font-face {
+    font-family: josefin-sans-regular;
+    src: url("../font/Josefin_Sans/JosefinSans-Regular.ttf");
+}
+
+@font-face {
+    font-family: josefin-sans-italic;
+    src: url("../font/Josefin_Sans/JosefinSans-Italic.ttf");
+}
+
+@font-face {
+    font-family: josefin-sans-bold;
+    src: url("../font/Josefin_Sans/JosefinSans-Bold.ttf");
+}
+
+@font-face {
+    font-family: josefin-sans-light;
+    src: url("../font/Josefin_Sans/JosefinSans-Light.ttf");
+}
+
+.section-title{
+    font-family: josefin-sans-bold;
+    /*font-size: */
+}
+
+.section-subtitle{
+    font-family: josefin-sans-regular;
+    /*font-size: */
+}
+
+.section-text{
+    font-family: josefin-sans-light;
+    /*font-size: */
+}
+
+.purple{
+    color: #440099;
+}
+
+.pink{
+    color: #DF1995;
+}
+
+.light-blue{
+    color: #2DCCD3;
+}
+
+.grey{
+    color: #878787;
+}
