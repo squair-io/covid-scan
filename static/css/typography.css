@@ -87,16 +87,24 @@
 }
 
 .icon-sm{
-    width: 10vw;
+    width: 6vw;
     height: auto;
 }
-
 .icon-md{
+    height: 8vw;
+    width: auto;
+}
+
+.icon-lg{
     width: 15vw;
     height: auto;
 }
 
-.icon-lg{
-    width: 20vw;
-    height: auto;
+
+.icon-subtitle{
+    margin-top: 1vh;
+    font-family: josefin-sans-light;
+    font-size: 0.8vh;
+    line-height: 1vh;
+    text-align: center;
 }

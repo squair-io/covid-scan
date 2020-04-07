@@ -89,5 +89,19 @@
     opacity: 70%;
 }
 .solution-diagram{
-    margin-top: 2vh;
+    margin-top: 5vh;
+}
+.solution-diagram .step{
+    margin-bottom: 3vh;
+}
+.citizens-and-health-professionals-icons{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.input-image .icon-subtitle{
+    width: 100%;
+}
+.lung-icon{
+    text-align: center;
 }
