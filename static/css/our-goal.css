@@ -1,0 +1,16 @@
+.our-goal{
+    position: relative;
+    margin-top: 4vh;
+}
+.our-goal .highlight-sentence{
+    color: white;
+ }
+ .our-goal img{
+     height: auto;
+     width: 100%;
+     padding: 0px;
+ }
+
+.our-goal .highlight-sentence-container{
+    top: 53%;
+}

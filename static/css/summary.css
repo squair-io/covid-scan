@@ -1,0 +1,15 @@
+.summary{
+    background-color: #DF1995;
+    height: auto;
+}
+.summary-txt{
+    font-family: josefin-sans-regular;
+    color: white;
+    font-size: 3.5vw;
+    display: flex;
+    align-items: center;
+    padding: 4vh 0vh 4vh 4vh;
+}
+.summary-img{
+    width: calc(50% - 3vh);
+}

@@ -1,48 +1,5 @@
-.header{
-    background-image: url('../img/picture/fundo.jpg');
-    background-position: center;
-    background-repeat: no-repeat;
-    height: 40vh;
-    padding: 4vh;
-    margin: 0px;
-}
-.header-title{
-    font-family: josefin-sans-bold;
-    color: white;
-    font-size: 4.5vh;
-    text-transform: uppercase;
-    height: calc(100% - 4vh);
-    display: flex;
-    align-items: flex-end;
-    margin: 0px;
-}
-.header-subtitle{
-    font-family: josefin-sans-regular;
-    color: white;
-    font-size: 2.5vh;
-    height: 4vh;
-    margin: 0px;
-}
 .section{
     padding: 6vh 4vh 0vh;
-}
-.summary{
-    background-color: #DF1995;
-    height: auto;
-}
-.summary-txt{
-    font-family: josefin-sans-regular;
-    color: white;
-    font-size: 3.5vw;
-    display: flex;
-    align-items: center;
-    padding: 4vh 0vh 4vh 4vh;
-}
-.summary-img{
-    width: calc(50% - 3vh);
-}
-.our-goal{
-    position: relative;
 }
 .highlight-sentence-container{
     position: absolute;
@@ -56,46 +13,9 @@
     align-items: center;
     padding: 1vh;
 }
-.our-goal .highlight-sentence{
-   color: white;
-}
-.our-goal img{
-    height: auto;
-    width: 100%;
-    padding: 0px;
-}
 .overlay{
     height: auto;
     background-color: black;
     opacity: 70%;
-}
-.our-purpose{
-    margin-top: 4vh;
-    position: relative;
-}
-.our-purpose .highlight-sentence{
-    font-size: 1.5vh;
-    color: white;
- }
- .our-purpose img{
-    height: auto;
-    width: 100%;
-    padding: 0px;
-}
-.footer{
-    background-image: url('../img/picture/fundo.jpg');
-    background-position: center;
-    background-repeat: no-repeat;
-    height: 100%;
-    padding: 4vh;
-    margin: 0px;
-    /* text-align: center; */
-}
-.startup-details{
-    font-family: josefin-sans-regular;
-    color: white;
-    font-size: 1vh;
-    line-height: 1.2vh;
-    margin-top: 2vh;
 }
 
