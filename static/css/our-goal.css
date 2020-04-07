@@ -3,14 +3,17 @@
     margin-top: 4vh;
 }
 .our-goal .highlight-sentence{
+    z-index: 3;
     color: white;
  }
  .our-goal img{
      height: auto;
      width: 100%;
      padding: 0px;
+     z-index: 0;
  }
 
 .our-goal .highlight-sentence-container{
+    z-index: 2;
     top: 53%;
 }

@@ -3,6 +3,7 @@
     position: relative;
 }
 .our-purpose .highlight-sentence{
+    z-index: 3;
     font-size: 1.5vh;
     color: white;
  }
@@ -10,4 +11,9 @@
     height: auto;
     width: 100%;
     padding: 0px;
+    z-index: 0;
+}
+.our-purpose .highlight-sentence-container{
+    z-index: 2;
+    top: 40%;
 }
