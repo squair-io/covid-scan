@@ -1,0 +1,18 @@
+.startups{
+    margin: 0px;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+    text-align: center;
+}
+.startups-description{
+    padding-left: 1vh;
+    padding-right: 1vh;
+}
+.squair-img{
+    height: 4vh;
+    width: auto;
+}
+.simplifai-img{
+    height: 3vh;
+    width: auto;
+}

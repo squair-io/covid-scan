@@ -21,6 +21,7 @@
 .section-title{
     font-family: josefin-sans-bold;
     font-size: 3vh;
+    margin-bottom: 1vh;
 }
 
 .section-subtitle{
@@ -56,18 +57,6 @@
     margin-top: 0.5vh;
     font-family: josefin-sans-light;
     font-size: 1vh;
-}
-
-.spacer-1vh{
-    height: 1vh;
-}
-
-.spacer-2vh{
-    height: 2vh;
-}
-
-.spacer-3vh{
-    height: 3vh;
 }
 
 .purple{

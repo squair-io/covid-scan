@@ -1,0 +1,25 @@
+.solution-diagram{
+    margin-top: 5vh;
+    margin-bottom: 2vh;
+}
+.solution-diagram .step{
+    margin-bottom: 0vh;
+}
+.icons-junction{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: baseline;
+}
+.input-image .icon-subtitle{
+    width: 100%;
+}
+.lung-icon{
+    text-align: center;
+    align-items: baseline;
+}
+.arrow{
+    height: 2vh;
+    margin: 0vh 0vh 1.5vh;
+    width: auto;
+}

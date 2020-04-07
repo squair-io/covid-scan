@@ -24,7 +24,7 @@
     margin: 0px;
 }
 .section{
-    padding: 4vh;
+    padding: 6vh 4vh 0vh;
 }
 .summary{
     background-color: #DF1995;
@@ -40,24 +40,6 @@
 }
 .summary-img{
     width: calc(50% - 3vh);
-}
-.startups{
-    margin: 0px;
-    margin-top: 2vh;
-    margin-bottom: 2vh;
-    text-align: center;
-}
-.startups-description{
-    padding-left: 1vh;
-    padding-right: 1vh;
-}
-.squair-img{
-    height: 4vh;
-    width: auto;
-}
-.simplifai-img{
-    height: 3vh;
-    width: auto;
 }
 .our-goal{
     position: relative;
@@ -81,27 +63,22 @@
     height: auto;
     width: 100%;
     padding: 0px;
-
 }
 .overlay{
     height: auto;
     background-color: black;
     opacity: 70%;
 }
-.solution-diagram{
-    margin-top: 5vh;
+.our-purpose{
+    margin-top: 4vh;
+    position: relative;
 }
-.solution-diagram .step{
-    margin-bottom: 3vh;
-}
-.citizens-and-health-professionals-icons{
+.our-purpose .highlight-sentence{
+    color: white;
+ }
+ .our-purpose img{
+    height: auto;
     width: 100%;
-    display: flex;
-    justify-content: space-evenly;
+    padding: 0px;
 }
-.input-image .icon-subtitle{
-    width: 100%;
-}
-.lung-icon{
-    text-align: center;
-}
+

@@ -8,6 +8,9 @@
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
     <link rel="stylesheet" href="static/css/style.css">
     <link rel="stylesheet" href="static/css/typography.css">
+    <link rel="stylesheet" href="static/css/diagrams.css">
+    <link rel="stylesheet" href="static/css/startups.css">
+
     <script src="node_modules/bootstrap/dist/js/bootstrap.js"></script>
 </head>
 
@@ -21,7 +24,7 @@
     <div class="row summary justify-content-between">
         <div class="col-6 summary-txt">
             A COVID-SCAN é uma plataforma de apoio ao diagnóstico do COVID-19 que utiliza inteligência artificial para
-            análise de imagens radiográficas, fornecendo agilidade e democratizando a tecnologia.
+            análise de imagens radiográficas, fornecendo agilidade no diagnóstico
         </div>
         <img class="col-6 summary-img" src="./static/img/picture/covid19-screen.png">
     </div>
@@ -54,7 +57,6 @@
             </div>
         </div>
     </div>
-    </div>
     <div class="row our-goal overlay">
         <img class="col-12" src="./static/img/picture/injecao.jpg" alt="">
         <div class="highlight-sentence-container">
@@ -66,14 +68,12 @@
         <div class="section-title purple">
             Como o COVID-Scan funciona?
         </div>
-        <div class="spacer-3vh"></div>
-        <div class="spacer-3vh"></div>
         <div class="section-subtitle pink">Utilizamos técnicas de Inteligência Artificial para analisar de imagens de
             Raio-X</div>
         <div class="col-12 solution-diagram">
             <div class="row input-image align-items-start step">
                 <div class="col-3">
-                    <div class="citizens-and-health-professionals-icons row">
+                    <div class="icons-junction row">
                         <img class="icon-sm" src="./static/img/icon/medico.svg">
                         <img class="icon-sm" src="./static/img/icon/pessoa.svg">
                     </div>
@@ -97,6 +97,10 @@
                     </div>
                 </div>
             </div>
+            <div class="row">
+                <div class="col-3"></div>
+                <img class="col-3 arrow" src="./static/img/icon/seta.svg">
+            </div>
             <div class="row data-processing align-items-start step">
                 <div class="col-3"></div>
                 <img class="col-3 icon-md" src="./static/img/icon/redeLupa.svg">
@@ -113,6 +117,10 @@
                     </div>
                 </div>
             </div>
+            <div class="row">
+                <div class="col-3"></div>
+                <img class="col-3 arrow" src="./static/img/icon/seta.svg">
+            </div>
             <div class="row result align-items-start step">
                 <div class="col-3"></div>
                 <img class="col-3 icon-md" src="./static/img/icon/plataforma.svg">
@@ -124,14 +132,97 @@
                         </div>
                         <div class="col-9">
                             <div class="row item-title purple">Resultado</div>
-                            <div class="row item-description grey">É gerado um laudo capaz de auxiliar a tomada de decisão durante o diagnóstico </div>
+                            <div class="row item-description grey">É gerado um laudo capaz de auxiliar a tomada de
+                                decisão durante o diagnóstico </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
+    <div class="row section">
+        <div class="section-title purple">Como o modelo será treinado?</div>
+        <div class="section-subtitle pink">O modelo precisa ser treinado para aumentar sua robustez e assertividade</div>
+        <div class="col-12 solution-diagram">
+            <div class="row input-image align-items-center step">
+                <div class="col-3">
+                    <div class="icons-junction row">
+                        <img class="icon-sm" src="./static/img/icon/hospital.svg">
+                        <img class="icon-sm" src="./static/img/icon/casa.svg">
+                    </div>
+                    <div class="row icon-subtitle grey">
+                        Profissionais de saúde e cidadãos
+                    </div>
+                </div>
+                <div class="col-3 lung-icon">
+                    <img class="icon-lg" src="./static/img/icon/pulmao-celular.svg">
+                </div>
+                <div class="col-6">
+                    <div class="row">
+                        <div class="item-number purple col-2">
+                            1
+                        </div>
+                        <div class="col-9">
+                            <div class="row item-title purple">Input da imagem</div>
+                            <div class="row item-description grey">Profissionais da saúde e cidadãos poderão
+                                disponibilizar imagens de Raio-X de pacientes com diagnóstico confirmado</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-3"></div>
+                <img class="col-3 arrow" src="./static/img/icon/seta.svg">
+            </div>
+            <div class="row data-processing align-items-start step">
+                <div class="col-3"></div>
+                <img class="col-3 icon-md" src="./static/img/icon/datacenter.svg">
+                <div class="col-6">
+                    <div class="row">
+                        <div class="item-number purple col-2">
+                            2
+                        </div>
+                        <div class="col-9">
+                            <div class="row item-title purple">Base de dados</div>
+                            <div class="row item-description grey">As imagens de raio-X serão armazenadas e
+                                utilizadas para ajustar os parâmetros do modelo</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-3"></div>
+                <img class="col-3 arrow" src="./static/img/icon/seta.svg">
+            </div>
+            <div class="row result align-items-start step">
+                <div class="col-3"></div>
+                <img class="col-3 icon-md" src="./static/img/icon/plataforma.svg">
+        
+                <div class="col-6">
+                    <div class="row">
+                        <div class="item-number purple col-2">
+                            3
+                        </div>
+                        <div class="col-9">
+                            <div class="row item-title purple">Resultado</div>
+                            <div class="row item-description grey">O treinamento do modelo gerará maior
+                                assertividade nos diagnósticos</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row our-purpose overlay">
+        <img class="col-12" src="./static/img/picture/diagnostico.jpeg" alt="">
+        <div class="highlight-sentence-container">
+            <p class="highlight-sentence col-11">
+                O COVID-SCAN dispnobiliza o diagnostico virtual nas unidades de saúde e lares do Brasil, minimizando o risco de exposição e a saturação do sistema de saúde</p>
+        </div>
+    </div>
+    <div class="row section delivered-value">
+
+    </div>
 
 </body>
-
 </html>
