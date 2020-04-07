@@ -74,11 +74,28 @@
     position: relative;
 }
 .our-purpose .highlight-sentence{
+    font-size: 1.5vh;
     color: white;
  }
  .our-purpose img{
     height: auto;
     width: 100%;
     padding: 0px;
+}
+.footer{
+    background-image: url('../img/picture/fundo.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%;
+    padding: 4vh;
+    margin: 0px;
+    /* text-align: center; */
+}
+.startup-details{
+    font-family: josefin-sans-regular;
+    color: white;
+    font-size: 1vh;
+    line-height: 1.2vh;
+    margin-top: 2vh;
 }
 

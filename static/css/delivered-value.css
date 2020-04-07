@@ -1,0 +1,22 @@
+.delivered-value{
+    margin-bottom: 4vh;
+}
+
+.delivered-value .col-4 img{
+    padding: 0vh 2vh 2vh;
+    height: 10vh;
+}
+
+.delivered-value .col-4 .section-text{
+    text-align: center;
+    line-height: 2vh;
+}
+
+.delivered-value .descriptions{
+    padding: 0.5vh 0.5vh;
+    text-align: center;
+}
+
+.delivered-value .section-text{
+    font-size: 01vh;
+}
