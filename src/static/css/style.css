@@ -15,24 +15,7 @@
     opacity: 70%;
     z-index: 1;
 }
-@media screen and (max-width: 600px){
-    .section{
-        padding: 6vw 6vw 3vw;
-    }
-}@media screen and (min-width: 601px){
-    .section{
-        padding: 6vw 6vw 3vw;
-    }
-}
-@media screen and (min-width: 767px){
-    .section{
-        padding: 6vw 6vw 3vw;
-    }
-}
-
-@media screen and (min-width: 768px){
-    .section{
-        padding: 6vw 6vw 3vw;
-    }
+.section{
+    padding: 6vw 6vw 3vw;
 }
 
