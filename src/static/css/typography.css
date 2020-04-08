@@ -64,58 +64,6 @@
         line-height: 2vw;
     }
 }
-@media screen and (min-width: 601px){
-    .section-title{
-        font-size: 4.3vw;
-    }
-    .section-subtitle{
-        font-size: 2.5vw;
-    }
-    .section-text{
-        font-size: 2.5vw;
-    }
-    .highlight-sentence{
-        font-size: 2vh;
-    }
-    .item-number{
-        font-size: 5.5vw;
-    }    
-    .item-title{
-        font-size: 2.3vw;
-    }
-    .item-description{
-        font-size: 2vw;
-    }
-    .icon-subtitle{
-        font-size: 2vw;
-        line-height: 2.2vw;
-    }
-}
-
-@media screen and (min-width: 768px){
-    .section-title{
-        font-size: 4.8vw; 
-    }
-    .section-subtitle{
-        font-size: 2.3vw;
-    }
-    .section-text{
-        font-size: 2.5vw;
-    }
-    .highlight-sentence{
-        font-size: 2vw;
-    }
-    .item-number{
-        font-size: 6vw;
-    }    
-    .item-title{
-        font-size: 2.3vw;
-    }
-    .icon-subtitle{
-        font-size: 2vw;
-        line-height: 2.3vw;
-    }
-}
 
 .item-number{
     font-family: josefin-sans-light;
@@ -168,4 +116,57 @@
     margin-top: 1vh;
     font-family: josefin-sans-light;
     text-align: center;
+}
+
+@media screen and (min-width: 601px){
+    .section-title{
+        font-size: 4.3vw;
+    }
+    .section-subtitle{
+        font-size: 2.5vw;
+    }
+    .section-text{
+        font-size: 2.5vw;
+    }
+    .highlight-sentence{
+        font-size: 2vh;
+    }
+    .item-number{
+        font-size: 5.5vw;
+    }    
+    .item-title{
+        font-size: 2.3vw;
+    }
+    .item-description{
+        font-size: 2vw;
+    }
+    .icon-subtitle{
+        font-size: 2vw;
+        line-height: 2.2vw;
+    }
+}
+
+@media screen and (min-width: 768px){
+    .section-title{
+        font-size: 4.8vw; 
+    }
+    .section-subtitle{
+        font-size: 2.3vw;
+    }
+    .section-text{
+        font-size: 2.5vw;
+    }
+    .highlight-sentence{
+        font-size: 2vw;
+    }
+    .item-number{
+        font-size: 6vw;
+    }    
+    .item-title{
+        font-size: 2.3vw;
+    }
+    .icon-subtitle{
+        font-size: 2vw;
+        line-height: 2.3vw;
+    }
 }

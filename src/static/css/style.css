@@ -15,16 +15,24 @@
     opacity: 70%;
     z-index: 1;
 }
-
-@media screen and (max-width: 788px){
+@media screen and (max-width: 600px){
     .section{
-        padding: 5vw 6vw 0vh;
+        padding: 6vw 6vw 3vw;
+    }
+}@media screen and (min-width: 601px){
+    .section{
+        padding: 6vw 6vw 3vw;
+    }
+}
+@media screen and (min-width: 767px){
+    .section{
+        padding: 6vw 6vw 3vw;
     }
 }
 
-@media screen and (min-width: 789px){
+@media screen and (min-width: 768px){
     .section{
-        padding: 6vw;
+        padding: 6vw 6vw 3vw;
     }
 }
 
