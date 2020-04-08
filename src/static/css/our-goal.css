@@ -13,18 +13,15 @@
      background-repeat: no-repeat;
      z-index: 0;
      width: 100%;
+     height: 40vh;
  }
 
 .our-goal .highlight-sentence-container{
     z-index: 2;
     top: 53%;
 }
-@media screen and (max-width: 788px){
-    .our-goal-img{
-        height: 40vh;
-    }
-}
-@media screen and (min-width: 789px){
+
+@media screen and (min-width: 1200px){
     .our-goal-img{
         height: 80vh;
     }
