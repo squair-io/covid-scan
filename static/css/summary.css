@@ -5,11 +5,29 @@
 .summary-txt{
     font-family: josefin-sans-regular;
     color: white;
-    font-size: 3.5vw;
     display: flex;
     align-items: center;
-    padding: 4vh 0vh 4vh 4vh;
 }
-.summary-img{
-    width: calc(50% - 3vh);
+
+
+@media screen and (max-width: 788px){
+    .summary-txt{
+        font-size: 3.5vw;
+        padding: 4vh 0vh 4vh 4vh;
+    }
+    .summary-img{
+        width: calc(50% - 3vh);
+        height: auto;
+    }
+}
+
+@media screen and (min-width: 787px){
+    .summary-txt{
+        font-size: 1.5vw;
+        padding: 6vw;
+    }
+    .summary-img{
+        width: calc(30% - 3vh);
+        height: auto;
+    }
 }

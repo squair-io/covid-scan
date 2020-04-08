@@ -20,19 +20,43 @@
 
 .section-title{
     font-family: josefin-sans-bold;
-    font-size: 3vh;
-    margin-bottom: 1vh;
 }
 
 .section-subtitle{
     font-family: josefin-sans-regular;
-    font-size: 1.7vh;
 }
 
 .section-text{
     font-family: josefin-sans-regular;
     font-size: 1.5vh;
 }
+
+@media screen and (max-width: 788px){
+    .section-title{
+        font-size: 3vh;
+        margin-bottom: 1vh;
+    }
+    .section-subtitle{
+        font-size: 1.7vh;
+    }
+    .section-text{
+        font-size: 1.5vh;
+    }
+}
+
+@media screen and (min-width: 789px){
+    .section-title{
+        font-size: 1vw;
+        margin-bottom: 1vh;
+    }
+    .section-subtitle{
+        font-size: 1.7vh;
+    }
+    .section-text{
+        font-size: 1.5vh;
+    }
+}
+
 
 .highlight-sentence{
     font-family: josefin-sans-regular;
