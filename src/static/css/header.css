@@ -21,12 +21,12 @@
 
 @media screen and (max-width: 788px){
     .header{
-        height: 50vh;
+        height: 30vh;
         padding: 6vw 8vw;
     }
     .header-title{
         font-size: 4.5vh;
-        height: (100% - 8vw);
+        height: calc(100% - 8vw);
     }
 }
 
