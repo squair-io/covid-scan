@@ -3,14 +3,14 @@
     background-position: center;
     background-repeat: no-repeat;
     margin: 0px;
+    display: flex;
+    align-items: flex-end;
     
 }
 .header-title{
     font-family: josefin-sans-bold;
     color: white;
     text-transform: uppercase;
-    display: flex;
-    align-items: flex-end;
     margin: 0px;
 }
 .header-subtitle{
@@ -18,29 +18,35 @@
     color: white;
     margin: 0px;
 }
-
-@media screen and (max-width: 788px){
+@media screen and (max-width: 600px){
     .header{
         height: 40vh;
         padding: 6vw 8vw;
     }
     .header-title{
-        font-size: 4.5vh;
-        height: calc(100% - 8vw);
+        font-size: 4.3vw;
     }
 }
 
-@media screen and (min-width: 787px){
+@media screen and (min-width: 601px){
     .header{
-        height: 18vw;
-        padding: 6vw;
+        height: 40vh;
+        padding: 6vw 8vw;
     }
     .header-title{
-        font-size: 3vw;
-        height: 7vw;
+        font-size: 3.8vw;
+    }
+}
+
+@media screen and (min-width: 768px){
+    .header{
+        height: 40vh;
+        padding: 6vw 8vw;
+    }
+    .header-title{
+        font-size: 4vw;
     }
     .header-subtitle{
         font-size: 1vw;
-        height: 4vh;
     }
 }
