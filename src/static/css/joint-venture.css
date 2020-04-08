@@ -4,15 +4,35 @@
     margin-bottom: 2vh;
     text-align: center;
 }
-.startups-description{
-    padding-left: 1vh;
-    padding-right: 1vh;
-}
 .squair-img{
-    height: 4vh;
     width: auto;
 }
 .simplifai-img{
-    height: 3vh;
     width: auto;
+}
+@media screen and (max-width: 788px){
+    .squair-img{
+        height: 4vh;
+    }
+    .simplifai-img{
+        height: 3vh;
+    }
+    .startups-description{
+        padding-left: 1vh;
+        padding-right: 1vh;
+    }
+}
+@media screen and (min-width: 789px){
+    .squair-img{
+        margin-top: 4vw;
+        height: 6vw;
+    }
+    .simplifai-img{
+        margin-top: 4vw;
+        height: 5vw;
+    }
+    .startups-description{
+        padding-left: 2vw;
+        padding-right: 2vw;
+    }
 }

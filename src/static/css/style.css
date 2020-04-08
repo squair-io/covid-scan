@@ -1,6 +1,3 @@
-.section{
-    padding: 5vw 6vw 0vh;
-}
 .highlight-sentence-container{
     position: absolute;
     left: 8%;
@@ -17,5 +14,17 @@
     background-color: black;
     opacity: 70%;
     z-index: 1;
+}
+
+@media screen and (max-width: 788px){
+    .section{
+        padding: 5vw 6vw 0vh;
+    }
+}
+
+@media screen and (min-width: 789px){
+    .section{
+        padding: 6vw;
+    }
 }
 
