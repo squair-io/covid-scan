@@ -31,7 +31,18 @@
     font-size: 1.5vh;
 }
 
-@media screen and (max-width: 788px){
+.highlight-sentence{
+    font-family: josefin-sans-regular;
+    margin: 0px;
+    font-size: 1.8vh;
+
+}
+@media screen and (max-width: 600px){
+    .highlight-sentence{
+        font-size: 1.8vh;
+    }
+}
+@media screen and (min-width: 601px){
     .section-title{
         font-size: 3vh;
         margin-bottom: 1vh;
@@ -40,11 +51,14 @@
         font-size: 1.7vh;
     }
     .section-text{
-        font-size: 1.5vh;
+        font-size: 2.5vh;
+    }
+    .highlight-sentence{
+        font-size: 2vh;
     }
 }
 
-@media screen and (min-width: 789px){
+@media screen and (min-width: 768px){
     .section-title{
         font-size: 3vw;
         margin-bottom: 1vh;
@@ -55,13 +69,9 @@
     .section-text{
         font-size: 1.8vw;
     }
-}
-
-
-.highlight-sentence{
-    font-family: josefin-sans-regular;
-    font-size: 2vh;
-    margin: 0px;
+    .highlight-sentence{
+        font-size: 2vw;
+    }
 }
 
 .item-number{
