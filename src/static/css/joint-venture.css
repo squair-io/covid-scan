@@ -12,10 +12,10 @@
 }
 @media screen and (max-width: 600px){
     .squair-img{
-        height: 5vh;
+        height: 5.4vw;
     }
     .simplifai-img{
-        height: 4vh;
+        height: 4.3vw;
     }
     .startups-description{
         padding-left: 1vh;
@@ -25,10 +25,10 @@
 
 @media screen and (min-width: 601px){
     .squair-img{
-        height: 4vh;
+        height: 4vw;
     }
     .simplifai-img{
-        height: 3vh;
+        height: 5vw;
     }
     .startups-description{
         padding-left: 1vh;
@@ -37,11 +37,9 @@
 }
 @media screen and (min-width: 768px){
     .squair-img{
-        margin-top: 4vw;
         height: 6vw;
     }
     .simplifai-img{
-        margin-top: 4vw;
         height: 5vw;
     }
     .startups-description{
