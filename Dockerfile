@@ -1,5 +1,6 @@
 FROM nginx
 
+RUN ls
 COPY ./src/ /var/www
 COPY ./nginx.conf /etc/nginx/conf.d/default.conf
 
