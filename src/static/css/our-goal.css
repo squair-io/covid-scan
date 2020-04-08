@@ -6,14 +6,23 @@
     z-index: 3;
     color: white;
  }
- .our-goal img{
-     height: auto;
-     width: 100%;
-     padding: 0px;
+ .our-goal-img{
+     background-image: url("../img/picture/medicpulmao.jpeg");
+     background-position: center;
+     background-size: cover;
+     background-repeat: no-repeat;
      z-index: 0;
+     width: 100%;
+     height: 40vh;
  }
 
 .our-goal .highlight-sentence-container{
     z-index: 2;
     top: 53%;
+}
+
+@media screen and (min-width: 1200px){
+    .our-goal-img{
+        height: 80vh;
+    }
 }

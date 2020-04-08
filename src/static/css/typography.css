@@ -31,56 +31,27 @@
     font-size: 1.5vh;
 }
 
-@media screen and (max-width: 788px){
-    .section-title{
-        font-size: 3vh;
-        margin-bottom: 1vh;
-    }
-    .section-subtitle{
-        font-size: 1.7vh;
-    }
-    .section-text{
-        font-size: 1.5vh;
-    }
-}
-
-@media screen and (min-width: 789px){
-    .section-title{
-        font-size: 3vw;
-        margin-bottom: 1vh;
-    }
-    .section-subtitle{
-        font-size: 2.3vw;
-    }
-    .section-text{
-        font-size: 1.8vw;
-    }
-}
-
-
 .highlight-sentence{
     font-family: josefin-sans-regular;
-    font-size: 2vh;
     margin: 0px;
+    font-size: 1.8vh;
+
 }
 
 .item-number{
     font-family: josefin-sans-light;
-    font-size: 4vh;
     text-align: center;
 }
 
 .item-title{
     margin-top: 0.5vh;
     font-family: josefin-sans-light;
-    font-size: 1.2vh;
     text-transform: uppercase;
 }
 
 .item-description{
     margin-top: 0.5vh;
     font-family: josefin-sans-light;
-    font-size: 1.2vh;
 }
 
 .purple{
@@ -117,7 +88,91 @@
 .icon-subtitle{
     margin-top: 1vh;
     font-family: josefin-sans-light;
-    font-size: 0.8vh;
-    line-height: 1vh;
     text-align: center;
+}
+@media screen and (max-width: 600px){
+    .section-title{
+        font-size: 4.5vw;   
+    }
+    .section-subtitle{
+        font-size: 2.3vw;
+    }
+    .section-text{
+        font-size: 2.5vw;
+    }
+    .highlight-sentence{
+        font-size: 3.3vw;
+    }
+    .item-number{
+        font-size: 4.5vw;
+    }    
+    .item-title{
+        font-size: 2vw;
+    }
+    .item-description{
+        font-size: 1.8vw;
+    }
+    .icon-subtitle{
+        font-size: 1.8vw;
+        line-height: 2vw;
+    }
+}
+
+@media screen and (min-width: 601px){
+    .section-title{
+        font-size: 4.3vw;
+    }
+    .section-subtitle{
+        font-size: 2.5vw;
+    }
+    .section-text{
+        font-size: 2vw;
+    }
+    .highlight-sentence{
+        font-size: 2.8vw;
+    }
+    .item-number{
+        font-size: 5.5vw;
+    }    
+    .item-title{
+        font-size: 2.3vw;
+    }
+    .item-description{
+        font-size: 2vw;
+    }
+    .icon-subtitle{
+        font-size: 2vw;
+        line-height: 2.2vw;
+    }
+}
+
+@media screen and (min-width: 768px){
+    .section-title{
+        font-size: 4.8vw; 
+    }
+    .section-subtitle{
+        font-size: 2.3vw;
+    }
+    .section-text{
+        font-size: 2vw;
+    }
+    .highlight-sentence{
+        font-size: 3vw;
+    }
+    .item-number{
+        font-size: 6vw;
+    }    
+    .item-title{
+        font-size: 2.3vw;
+    }
+    .icon-subtitle{
+        font-size: 2vw;
+        line-height: 2.3vw;
+    }
+}
+
+@media screen and (min-width: 1100px){
+    .highlight-sentence{
+        font-size: 2.2vw;
+    }
 }

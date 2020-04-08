@@ -2,12 +2,11 @@
     position: absolute;
     left: 8%;
     background-color: #343a40;
-    height: 15vh;
     width: 55%;
     opacity: 0.85;
     display: flex;
     align-items: center;
-    padding: 1vh;
+    padding: 2vh 1vh;
 }
 .overlay{
     height: auto;
@@ -15,16 +14,7 @@
     opacity: 70%;
     z-index: 1;
 }
-
-@media screen and (max-width: 788px){
-    .section{
-        padding: 5vw 6vw 0vh;
-    }
-}
-
-@media screen and (min-width: 789px){
-    .section{
-        padding: 6vw;
-    }
+.section{
+    padding: 6vw 6vw 3vw;
 }
 
