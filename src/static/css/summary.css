@@ -23,11 +23,12 @@
 
 @media screen and (min-width: 787px){
     .summary-txt{
-        font-size: 1.5vw;
+        margin: 10vw 0vw;
+        font-size: 2vw;
         padding: 6vw;
     }
     .summary-img{
-        width: calc(30% - 3vh);
+        margin-top: 10vw;
         height: auto;
     }
 }
