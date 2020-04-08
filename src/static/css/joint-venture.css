@@ -5,9 +5,11 @@
     text-align: center;
 }
 .squair-img{
+    margin-top: 2vh;
     width: auto;
 }
 .simplifai-img{
+    margin-top: 2vh;
     width: auto;
 }
 @media screen and (max-width: 600px){
