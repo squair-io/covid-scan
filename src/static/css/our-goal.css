@@ -21,7 +21,7 @@
     top: 53%;
 }
 
-@media screen and (min-width: 1200px){
+@media screen and (min-width: 768px){
     .our-goal-img{
         height: 80vh;
     }
