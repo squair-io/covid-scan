@@ -21,7 +21,7 @@
 
 @media screen and (max-width: 788px){
     .header{
-        height: 30vh;
+        height: 40vh;
         padding: 6vw 8vw;
     }
     .header-title{
@@ -32,12 +32,12 @@
 
 @media screen and (min-width: 787px){
     .header{
-        height: 25vw;
+        height: 18vw;
         padding: 6vw;
     }
     .header-title{
         font-size: 3vw;
-        height: 14vw;
+        height: 7vw;
     }
     .header-subtitle{
         font-size: 1vw;
