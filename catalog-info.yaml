@@ -1,0 +1,14 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: covid-scan
+  description: Covid Scan's Website
+  tags:
+    - html
+    - css
+  annotations:
+    github.com/project-slug: squair-io/covid-scan
+spec:
+  type: website
+  lifecycle: production
+  owner: user:default/isvaldo
